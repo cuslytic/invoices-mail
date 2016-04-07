@@ -1,0 +1,60 @@
+
+
+.mini-pee {
+  border-bottom: 1px solid $light-gray;
+  margin-bottom: 60px;
+  p{
+    margin: 0;
+    font-size: 0.8em;
+  }
+}
+
+.thumb {
+  background: url("../img/thumb.svg");
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+
+.title-stack {
+  p {
+    font-size: 0.6em;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 1px solid $primary-color;
+  }
+
+}
+
+table{
+  &.button {
+      margin-top: 50px;
+    table {
+      td {
+        a {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+}
+.top-stack {
+  p {
+    font-size: 0.6em;
+    a {
+      border-bottom:1px $primary-color solid;
+    }
+  }
+}
+.bot-stack {
+  p {
+    a{
+      border-bottom: 2px $primary-color solid;
+    }
+  }
+}
+
+.main-view{
+  border: 1px $primary-color solid
+}
